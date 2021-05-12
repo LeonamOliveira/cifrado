@@ -6,6 +6,35 @@
     </category>
     
     <category>
+        <pattern>* olá</pattern>
+        <template>
+            Dig-dig-joy, 
+            dig-joy-popoy
+            Vem ser meu amigo
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* oi</pattern>
+        <template>
+            E toda vez que você me disser, "oi"
+            Eu vou responder só, "oi"
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* tudo bem</pattern>
+        <template>
+            Mas o teu amor me cura
+            De uma loucura qualquer
+            É encostar no seu peito
+            E se isso for algum defeito
+            Por mim tudo bem
+            Tudo bem, tudo bem
+        </template>
+    </category>
+    
+    <category>
 	    <pattern>O que é música</pattern>
 	    <template>Música é a combinação entre harmonia, ritmo e melodia.</template>
     </category> 
