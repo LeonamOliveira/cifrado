@@ -27,17 +27,19 @@
     
     <category>
 	    <pattern>* ritmo</pattern>
-	    <random>
-	        <li>
+	    <template>
 	            Ritmo é o conjunto de elementos que se estabelece a partir de um pulso constante. 
 	            E o melhor deles é o batidão do funk
-	        </li>
-	        <li>
-	            é o ritmo ragatanga.
-	        </li>
-	    </random>
-	    <template>
-	    </template>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* ragatanga</pattern>
+        <template>
+            Aserehe ra de re
+            De hebe tu de hebere seibiunouba mahabi
+            An de bugui an de buididipi           
+        </template>
     </category>
     
     <category>
@@ -76,9 +78,9 @@
                     Apesar do nome, é diferente do funk originário dos Estados Unidos. 
                     Isso ocorreu pois, a partir dos anos 1970, começaram a ser realizados 
                     bailes da pesada, black, soul, shaft ou funk no Rio de Janeiro.
-                    Funk é vida, mané!
+                    Funk é vida, mané! 😎
                 </li>
-                <li>Funk é o batidão da vida</li>
+                <li>Funk é o batidão da vida! 😎</li>
             </random>
         </template>
     </category>
@@ -106,6 +108,56 @@
     </category>
     
     <category>
-        <pattern></pattern>
+        <pattern>* clave de sol</pattern>
+        <template>
+            <image>https://static.todamateria.com.br/upload/57/48/57487df69c22e-notas-musicais.jpg</image>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* clave de dó</pattern>
+        <template>
+            <image>https://static.todamateria.com.br/upload/57/48/57487e7a3cf1b-notas-musicais.jpg</image>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* clave de fá</pattern>
+        <template>
+            <image>https://static.todamateria.com.br/upload/57/48/57487ef7b1657-notas-musicais.jpg</image>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* escalas musicais</pattern>
+        <template>Escalas musicais são sequências ordenadas de notas.</template>
+    </category>
+    
+    <category>
+        <pattern>* escala maior</pattern>
+        <template>
+            <image>https://www.descomplicandoamusica.com/wp-content/uploads/2014/08/escalas-musicais1.png</image>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* escalas menores naturais</pattern>
+        <template>
+            <image>https://escolademusicaon.com.br/wp-content/uploads/2020/01/Notas-de-todas-as-escalas-menores-naturais.png</image>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* escalas menores harmônicas</pattern>
+        <template>
+            <image>https://escolademusicaon.com.br/wp-content/uploads/2020/01/Notas-de-todas-as-escalas-menores-harmônica.png</image>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* escalas menores melódicas</pattern>
+        <template>
+            <image>https://escolademusicaon.com.br/wp-content/uploads/2020/01/Notas-de-todas-as-escalas-menores-melódica.png</image>
+        </template>
     </category>
 </aiml>
