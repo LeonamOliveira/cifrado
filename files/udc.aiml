@@ -21,18 +21,91 @@
     </category> 
     
     <category>
+        <pattern>* gosta de música</pattern>
+        <template>Principalmente funk proibidão mané.</template>
+    </category>
+    
+    <category>
 	    <pattern>* ritmo</pattern>
-	    <template>Ritmo é o conjunto de elementos que se estabelece a partir de um pulso constante. 
-	        E o melhor deles é o batidão do funk</template>
-    </category> 
+	    <random>
+	        <li>
+	            Ritmo é o conjunto de elementos que se estabelece a partir de um pulso constante. 
+	            E o melhor deles é o batidão do funk
+	        </li>
+	        <li>
+	            é o ritmo ragatanga.
+	        </li>
+	    </random>
+	    <template>
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>* métrica</pattern>
+        <template>
+            É a medida que organiza o pulso constante em fragmentos. 
+            Os compassos, de dois em dois tempos, de três em três tempos, 
+            de quatro em quatro em tempos, estabelecem continuidade sob algo fixo.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>o que é compasso</pattern>
+        <template>
+            Fragmento do pulso constante, de linguagem gráfica, 
+            medida que estabelece a relação total entre a métrica e a unidade de tempo.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>O que é signo de compasso</pattern>
+        <template>
+            É a relação que estabelece a proporção de um compasso, 
+            o número de cima determina a métrica, e o de baixo a representação da unidade de tempo. 
+            Dois por quatro, por exemplo, de dois em dois tempos o pulso constante está organizado, 
+            como a semínima, representando um tempo. Duas figuras da semínima cumprem um compasso.
+        </template>
+    </category>
     
     <category>
         <pattern>* funk</pattern>
-        <template>O funk carioca, ou simplesmente funk, é um estilo musical 
-            oriundo das favelas do estado do Rio de Janeiro, no Brasil. 
-            Apesar do nome, é diferente do funk originário dos Estados Unidos. 
-            Isso ocorreu pois, a partir dos anos 1970, começaram a ser realizados 
-            bailes da pesada, black, soul, shaft ou funk no Rio de Janeiro.
-            Funk é vida, mané!</template>
+        <template>
+            <random>
+                <li>O funk carioca, ou simplesmente funk, é um estilo musical 
+                    oriundo das favelas do estado do Rio de Janeiro, no Brasil. 
+                    Apesar do nome, é diferente do funk originário dos Estados Unidos. 
+                    Isso ocorreu pois, a partir dos anos 1970, começaram a ser realizados 
+                    bailes da pesada, black, soul, shaft ou funk no Rio de Janeiro.
+                    Funk é vida, mané!
+                </li>
+                <li>Funk é o batidão da vida</li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>o que é cifra</pattern>
+        <template>
+            Cifra é um sistema de notação musical usado para indicar, os acordes a serem executados por um instrumento musical. 
+        </template>
+    </category>
+    
+    <category>
+        <pattern>o que é melodia</pattern>
+        <template>
+            Melodia é uma sucessão coerente de sons e silêncios, 
+            que se desenvolvem em uma sequência linear com identidade própria.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>o que é harmonia</pattern>
+        <template>
+            Harmonia é o campo que estuda as relações de encadeamento dos sons simultâneos.
+        </template>
+    </category>
+    
+    <category>
+        <pattern></pattern>
     </category>
 </aiml>

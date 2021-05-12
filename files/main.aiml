@@ -5,4 +5,8 @@
 	    <pattern>O que é música?</pattern>
 	    <template>Música é a combinação entre harmonia, ritmo e melodia</template>
 	</category>
+<category>
+    <pattern></pattern>
+    <template></template>
+</category>
 </aiml>
