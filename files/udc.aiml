@@ -23,7 +23,7 @@
     </category>
     
     <category>
-        <pattern>* tudo bem</pattern>
+        <pattern>tudo bem</pattern>
         <template>
             Mas o teu amor me cura
             De uma loucura qualquer
@@ -35,7 +35,7 @@
     </category>
     
     <category>
-	    <pattern>O que é música</pattern>
+	    <pattern>* é música</pattern>
 	    <template>Música é a combinação entre harmonia, ritmo e melodia.</template>
     </category> 
     
