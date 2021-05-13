@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-    
+
     <category>
-        <pattern>* </pattern>
+        <pattern>*</pattern>
         <template>
-            Esse tom não é bom para os meus ouvidos, não entendi o que você disse 😓
+            Isso não é bom para os meus ouvidos. Não entendi o que você disse!
         </template>
     </category>
-    
+
     <category>
         <pattern>teoria musical</pattern>
         <template>
@@ -214,21 +214,21 @@
     </category>
     
     <category>
-        <pattern>* clave de sol</pattern>
+        <pattern>c clave de sol</pattern>
         <template>
             <image>https://static.todamateria.com.br/upload/57/48/57487df69c22e-notas-musicais.jpg</image>
         </template>
     </category>
     
     <category>
-        <pattern>* clave de dó</pattern>
+        <pattern>como é a clave de dó</pattern>
         <template>
             <image>https://static.todamateria.com.br/upload/57/48/57487e7a3cf1b-notas-musicais.jpg</image>
         </template>
     </category>
     
     <category>
-        <pattern>* clave de fá</pattern>
+        <pattern>como é a clave de fá</pattern>
         <template>
             <image>https://static.todamateria.com.br/upload/57/48/57487ef7b1657-notas-musicais.jpg</image>
         </template>
