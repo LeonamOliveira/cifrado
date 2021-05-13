@@ -6,7 +6,7 @@
     </category>
     
     <category>
-        <pattern>* olá</pattern>
+        <pattern>olá</pattern>
         <template>
             Dig-dig-joy, 
             dig-joy-popoy
@@ -15,7 +15,7 @@
     </category>
     
     <category>
-        <pattern>* oi</pattern>
+        <pattern>oi</pattern>
         <template>
             E toda vez que você me disser, "oi"
             Eu vou responder só, "oi"
