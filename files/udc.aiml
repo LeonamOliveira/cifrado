@@ -214,7 +214,7 @@
     </category>
     
     <category>
-        <pattern>c clave de sol</pattern>
+        <pattern>como é a clave de sol</pattern>
         <template>
             <image>https://static.todamateria.com.br/upload/57/48/57487df69c22e-notas-musicais.jpg</image>
         </template>
