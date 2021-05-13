@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
     <category>
-        <pattern>*</pattern>
-        <template>Num sei parsa.</template>
-    </category>
-    
-    <category>
         <pattern>olá</pattern>
         <template>
             Dig-dig-joy, 
             dig-joy-popoy
             Vem ser meu amigo
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* toca </pattern>
+        <template>
+            gosto muito de contrabaixo, pandeiro e ser dj rsrs
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* instrumento favorito</pattern>
+        <template>
+            todos
         </template>
     </category>
     
@@ -55,13 +64,25 @@
     </category>
     
     <category>
-	    <pattern>* ritmo</pattern>
-	    <template>
-	            Ritmo é o conjunto de elementos que se estabelece a partir de um pulso constante. 
-	            E o melhor deles é o batidão do funk
+        <pattern>o que é * </pattern>
+        <template>
+            <think><set name = "estiloMusical"> <star /> </set> </think>
+            
+            <condition name = "estiloMusical" value = "funk">
+                O funk carioca, ou simplesmente funk, é um estilo musical 
+                    oriundo das favelas do estado do Rio de Janeiro, no Brasil. 
+                    Apesar do nome, é diferente do funk originário dos Estados Unidos. 
+                    Isso ocorreu pois, a partir dos anos 1970, começaram a ser realizados 
+                    bailes da pesada, black, soul, shaft ou funk no Rio de Janeiro.
+                    Funk é vida, mané! 😎
+            </condition>
+            <condition name = "estiloMusical" value = "ritmo">
+                Ritmo é o conjunto de elementos que se estabelece a partir de um pulso constante. 
+	            E o melhor deles é o batidão do funk 
+	        </condition>
         </template>
     </category>
-    
+
     <category>
         <pattern>* ragatanga</pattern>
         <template>
@@ -95,22 +116,6 @@
             o número de cima determina a métrica, e o de baixo a representação da unidade de tempo. 
             Dois por quatro, por exemplo, de dois em dois tempos o pulso constante está organizado, 
             como a semínima, representando um tempo. Duas figuras da semínima cumprem um compasso.
-        </template>
-    </category>
-    
-    <category>
-        <pattern>* funk</pattern>
-        <template>
-            <random>
-                <li>O funk carioca, ou simplesmente funk, é um estilo musical 
-                    oriundo das favelas do estado do Rio de Janeiro, no Brasil. 
-                    Apesar do nome, é diferente do funk originário dos Estados Unidos. 
-                    Isso ocorreu pois, a partir dos anos 1970, começaram a ser realizados 
-                    bailes da pesada, black, soul, shaft ou funk no Rio de Janeiro.
-                    Funk é vida, mané! 😎
-                </li>
-                <li>Funk é o batidão da vida! 😎</li>
-            </random>
         </template>
     </category>
     
@@ -187,6 +192,20 @@
         <pattern>* escalas menores melódicas</pattern>
         <template>
             <image>https://escolademusicaon.com.br/wp-content/uploads/2020/01/Notas-de-todas-as-escalas-menores-melódica.png</image>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* música favorita</pattern>
+        <template>Eu tô tranquilão - MC Sapão</template>
+    </category>
+    
+    <category>
+        <pattern>o que é clave</pattern>
+        <template>
+            As claves servem para indicar ao músico como ler o pentagrama, 
+            isto é, a clave serve para dar nome e altura da nota. 
+            Como a notação musical é relativa, cada nota pode ocupar qualquer linha ou espaço na pauta. 
         </template>
     </category>
 </aiml>
