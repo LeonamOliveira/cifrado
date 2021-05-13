@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
+    
+    <category>
+        <pattern>* </pattern>
+        <template>
+            Esse tom não é bom para os meus ouvidos, não entendi o que você disse 😓
+        </template>
+    </category>
+    
+    <category>
+        <pattern>teoria musical</pattern>
+        <template>
+            A teoria musical é um conjunto de sistemas para a abordagem de análises, 
+            classificações, composições e claro, a comunicação.
+        </template>
+    </category>
+    
     <category>
         <pattern>olá</pattern>
         <template>
@@ -13,6 +29,13 @@
         <pattern>* toca </pattern>
         <template>
             gosto muito de contrabaixo, pandeiro e ser dj rsrs
+        </template>
+    </category>
+    
+    <category>
+        <pattern>tudo bom</pattern>
+        <template>
+            Bom xibom, xibom, bombom
         </template>
     </category>
     
@@ -76,10 +99,59 @@
                     bailes da pesada, black, soul, shaft ou funk no Rio de Janeiro.
                     Funk é vida, mané! 😎
             </condition>
-            <condition name = "estiloMusical" value = "ritmo">
-                Ritmo é o conjunto de elementos que se estabelece a partir de um pulso constante. 
-	            E o melhor deles é o batidão do funk 
-	        </condition>
+            <condition name = "estiloMusical" value = "jazz">
+                É uma música moderna de origem negro-americana, muito difundida após a guerra de 1914-1918, 
+                caracterizada pelo improviso e pelas sonoridades e ritmos sincopados, 
+                basicamente extraídos do ragtime e do blues.
+            </condition>
+            <condition name = "estiloMusical" value = "reggae">
+                O reggae baseia-se num estilo rítmico caracterizado pela acentuação no tempo fraco, conhecido como skank. 
+                O estilo normalmente é mais lento que o ska e o rocksteady,
+                e seus compassos normalmente são acentuados na segunda e na quarta batida, 
+                com a guitarra base servindo ou para enfatizar a terceira batida, 
+                ou para segurar o acorde da segunda até que o quarto seja tocado. 
+                É principalmente essa "terceira batida", sua velocidade e o uso de linhas de baixo complexas que diferencia o reggae do rocksteady, 
+                embora estilos posteriores tenham incorporado estas inovações de maneira independente.
+            </condition>
+            <condition name = "estiloMusical" value = "rock">
+                O som do rock, muitas vezes, gira em torno da guitarra elétrica ou do violão e utiliza um forte backbeat (contratempo) 
+                estabelecido pelo ritmo do baixo elétrico, da bateria, do teclado, e outros instrumentos como órgão, piano, ou, desde a década de 1970, sintetizadores digitais. 
+                Junto com a guitarra ou teclado, o saxofone e a gaita, são por vezes utilizados como instrumentos solo. 
+                Em sua "forma pura", o rock "tem três acordes, um forte e insistente contratempo e uma melodia cativante"
+            </condition>
+            <condition name = "estiloMusical" value = "pop">
+                O Pop surgiu nos Estados Unidos na década de 50. 
+                O estilo musical é marcado pela conservação da estrutura formal da música: “verso – estribilho – verso”, 
+                executada de modo sensível e melódico, normalmente assimilado por um grande público.            
+            </condition>
+            <condition name = "estiloMusical" value = "pagode">
+                O termo "pagode" está presente na linguagem musical brasileira desde, pelo menos, o século XIX. 
+                Inicialmente, era associado às festas que aconteciam nas senzalas e, 
+                mais tarde, se tornou sinônimo de qualquer festa regada a bebidas alcoólicas e cantoria.
+            </condition>
+            <condition name = "estiloMusical" value = "samba">
+                O samba organiza o pulso constante em grupos de dois, na nomenclatura da teoria então, trata-se de um gênero binário.
+                Possui o elemento da marcação normalmente no grave – o surdo, o contrabaixo, o violão de sete cordas ou tam-tam.
+                A condução rítmica se dá em frequência aguda – chocalhos, platinelas do pandeiro, repique de mão.
+                O gênero possui harmonia normalmente composta por tríades, e tétrades apenas com estrutura dominante – tríade maior com sétima menor.
+                Na década de 1980 o samba modernizou-se como pagode, entre harmonias mais sinuosas, repletas de tétrades, e estruturas altas de um acorde – as extensões.
+                O samba possui essas vertentes – pequenas variantes que conotam até mesmo estilo: samba-enredo, samba de breque, partido alto, samba exaltação, e até bossa-nova.
+            </condition>
+            <condition name = "estiloMusical" value = "sertanejo">
+                Música sertaneja é um gênero musical do Brasil produzido a partir da década de 1910 por compositores urbanos, rurais e outros chamada genericamente de modas 
+                e emboladas cujo som da viola é predominante.
+                O sertanejo é atualmente o mais popular estilo musical no Brasil, 
+                superando inclusive o samba, na maioria dos estados do país 
+                (especialmente São Paulo, Minas Gerais, Goiás, Rio de Janeiro, Rio Grande do Sul, Mato Grosso do Sul, Mato Grosso, Rondônia e Tocantins e Paraná).
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern>o que é ritmo</pattern>
+        <template>
+            Ritmo é o conjunto de elementos que se estabelece a partir de um pulso constante. 
+	        E o melhor deles é o batidão do funk 
         </template>
     </category>
 
